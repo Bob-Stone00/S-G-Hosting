@@ -1,0 +1,119 @@
+
+.stock-table {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stock-table table {
+    width: 55rem;
+    height: 30rem;
+    margin-left: 3rem;
+    background-color: rgb(87, 74, 74);
+    font-weight: 900;
+    border-radius: 1rem;
+    margin-top: -40rem;
+    overflow-y: transparent;
+}
+
+.stock-table th,
+.stock-table td {
+    border: tr; /* border color*/
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+
+.stock-table th {
+    background-color: #4e4848;
+    color: #fff; /* Add text color for better readability */
+    position: sticky;
+    height: 3rem;
+    top: 0; /* Stick to the top */
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+.orderID{border-top-left-radius: 1rem;
+}
+
+.total{
+    border-top-right-radius: 1rem;
+}
+
+
+
+
+.box {
+    background-color: #8d5252;
+    color: #fff; /* Add text color for better readability */
+    
+    height: 3rem;
+    margin-top: 0rem;
+    top: 0; /* Stick to the top */
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+.stock-table td {
+    font-weight:  400; 
+}
+
+
+.complete{
+    background-color: rgb(42, 190, 42);
+    border-radius: 1rem;
+    width:10rem;
+}
+
+.halfway{
+    background-color: rgb(201, 134, 9);
+    border-radius: 1rem;
+    width:10rem;
+}
+
+.incomplete{
+    background-color: rgb(190, 47, 42);
+    border-radius: 1rem;
+    width:10rem;
+}
+
+.fulfil{
+    color: rgb(159, 255, 14);
+    font-weight: 500;
+    
+}
+
+.unfulfil{
+    color: rgb(255, 37, 8);
+    font-weight: 500;
+}
+
+.p{
+
+    color: #e7d1d1;
+}
+
+.moveinput{
+   padding-top: -15.5rem;
+   margin-top: -5rem;
+   position: sticky;
+    top: 0; /* Stick to the top */
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+.moveinput input{
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: none;
+    padding: 1.5rem;
+    margin-top: .5rem;
+    margin-left: 58rem;
+    width: 22rem;
+
+    outline-color: green;
+}
+
+
+
+
+
+

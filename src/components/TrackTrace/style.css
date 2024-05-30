@@ -1,0 +1,203 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1, h2,h3,h4 {
+    margin-bottom: 1rem;
+    margin-left: 20px;
+  }
+  
+  #product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  #product-form h2 {
+    margin:5px;
+  }
+  
+  #product-form label {
+    display: block;
+    margin-bottom: 0rem;
+    margin-left: 20px;
+  }
+
+  #product-verification label {
+    display: block;
+    margin-bottom: 0rem;
+    margin-left: 20px;
+  }
+  
+  #product-list {
+    
+    list-style: none;
+    padding: 0;
+  }
+  
+  #product-list li {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    padding-left: 20px;
+  }
+  
+  
+    #product-journey {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    .journey-timestamp {
+      font-weight: bold;
+    }
+  
+    #product-verification {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    #product-form input[type='text'] {
+      border-radius: 5px;
+      border: 1px solid gray;
+      margin:0px auto;
+      width: 95%;
+      height: 28px;
+      padding: 0;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 1rem;
+      box-shadow: 0 2px 2px 0;
+    }
+
+    #product-verification input[type='text'] {
+      border-radius: 5px;
+      border: 2px solid gray;
+      margin:0px auto;
+      width: 95%;
+      height: 28px;
+      padding: 0;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 1rem;
+      box-shadow: 0 2px 2px 0;
+    }
+
+    #product-verification select {
+      border-radius: 5px;
+      border: 1px solid gray;
+      margin:0px auto;
+      width: 95%;
+      height: 28px;
+      padding: 0;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 1rem;
+      box-shadow: 0 2px 2px 0;
+    }
+
+    #product-form textarea {
+      width: 95%;
+      height: 28px;
+      border-radius: 5px;
+      border: 1px solid gray;
+      margin:0px auto;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 1rem;
+      box-shadow: 0 2px 2px 0;
+    }
+
+    #product-form button {
+      width: 95%;
+      height: 35px;
+      border-radius: 5px;
+      border: none;
+      margin:0px auto;
+      font-weight: 700;
+      color:white;
+      background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+    }
+
+    #product-journey-modal button {
+      width: 95%;
+      height: 35px;
+      border-radius: 5px;
+      border: none;
+      margin:0px auto !important;
+      display: flex;
+      justify-content: center;
+      font-weight: 700;
+      color:white;
+      background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+    }
+
+    #product-verification button {
+      width: 95%;
+      height: 35px;
+      border-radius: 5px;
+      border: none;
+      margin:0px auto;
+      font-weight: 700;
+      color:white;
+      background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+    }
+
+
+
+   .track-and-tracing-ordertrackin2-div input[type='checkbox']{
+      width: 0 !important;
+      margin-left: 0 !important;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-menu {
+      display: block;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      height: 60px;
+    }
+    
+    .dropdown-item {
+      padding: 8px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    
+    .dropdown-item:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .user-btn {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 8px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    
+    .user-btn:hover {
+      background-color: #f1f1f1;
+    }
+    
